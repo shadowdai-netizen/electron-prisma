@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    {"path": "./src/renderer"},
+    {"path": "./src/electron"}
+  ]
+}

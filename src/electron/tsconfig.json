@@ -1,0 +1,16 @@
+{
+  "include": ["**/*", "../api.d.ts"],
+  "exclude": ["../../node_modules"],
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "outDir": "../../dist/electron",
+    "strict": false,
+    "esModuleInterop": true,
+    "inlineSources": false,
+    "sourceMap": false,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmitOnError": false
+  }
+}
